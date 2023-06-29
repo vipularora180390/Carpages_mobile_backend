@@ -3,7 +3,7 @@ const express =require("express");
 const bodyParser=require("body-parser");
 
 const app=express();
-const cors =require('cors');
+
 const FileUpload=require("express-fileupload");
 app.use(express.static('uploads'));
 const cookieparser=require('cookie-parser');
